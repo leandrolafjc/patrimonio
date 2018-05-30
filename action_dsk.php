@@ -232,7 +232,7 @@
             $stm->bindValue(':informacoes', $informacoes);      
             $stm->bindValue(':foto', $foto);    		  
             $stm->bindValue(':status', $status);					
-			$retorno = $stm->execute($sql);
+			$retorno = $stm->execute();
 			
 
 			if ($retorno):
